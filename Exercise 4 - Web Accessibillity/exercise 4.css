@@ -1,0 +1,181 @@
+body {
+    font-family: 'Times New Roman', Times, serif;
+    /*sets all text inside body to be Times New Roman*/
+}
+
+div {
+    background-color: rgb(212, 201, 204);
+    /*changes bg color of box*/
+    width: 500px;
+    /*declares how wide the body is*/
+    margin: auto;
+    /*removes all outer spacing in the body, centers it automatically*/
+}
+
+#divider {
+    display: block;
+    /*makes img fill the row and have in its own line*/
+    margin-left: auto;
+    /*pushes element to right side*/
+    margin-right: auto;
+    /*pushes element to left side*/
+    padding-top: 2%;
+    /*adds inner spacing at the top*/
+}
+
+h1 {
+    font-size: 60px;
+    /*makes text bigger*/
+    text-align: center;
+    /*centers the text*/
+    font-weight: 100;
+    /*changes thickness of the text*/
+    margin-bottom: 15px;
+    /*adds outer spacing at the bottom*/
+    margin-top: 0;
+    /*adds outer spacing at the top*/
+    color: #572d3d;
+    /*changes color of main heading*/
+}
+
+nav {
+    display: flex;
+    /* makes nav bar arrange children elements in a row */
+    background-color: #572d3d;
+    /*changes bg color of nav bar*/
+    padding: 2%;
+    /*adds inner spacing around the nav bar*/
+}
+
+nav a {
+    flex: 1;
+    /* makes items take equal space in a line */
+    text-align: center;
+    /*centers the text*/
+    color: rgb(239, 232, 234);
+    /*changes color of navigation text*/
+    padding: 3px 0px;
+    /*adds inner spacing vertically and removes inner spacing horiznotally*/
+    border-right: 1px solid #ffe7f0;
+    /*adds a border at the right side of a navigation element*/
+
+}
+
+nav a:last-child {
+    border-right: none;
+    /*excludes last nav element in having a border on the right*/
+}
+
+nav a:hover {
+    color: #f8caca;
+    /*changes color of navigation link when hovered over*/
+}
+
+
+.pictures {
+    width: 90%;
+    /*sets how much space it can take up inside the box*/
+    display: block;
+    /*makes img fill the row and have its own line*/
+    margin-left: auto;
+    /*pushes element to right side*/
+    margin-right: auto;
+    /*pushes element to left side*/
+    margin-top: 5%;
+    /*adds outer spacing at the top*/
+    margin-bottom: 5%;
+    /*adds outer spacing at the bottom*/
+}
+
+.polaroid {
+    width: 77%;
+    /*sets how much space it can take up inside the box*/
+    display: block;
+    /*makes img fill the row and have its own line*/
+    margin-left: auto;
+    /*pushes element to right side*/
+    margin-right: auto;
+    /*pushes element to left side*/
+    margin-top: 10%;
+    /*adds outer spacing at the top*/
+    margin-bottom: 3%;
+    /*adds outer spacing at the bottom*/
+    background-color: #f3eded;
+    /*changes bg color of box*/
+    padding: 1px;
+    /*adds inner spacing around the element*/
+
+}
+
+p {
+    padding-left: 5%;
+    /*adds inner spacing at the left*/
+    padding-right: 5%;
+    /*adds inner spacing at the right*/
+    color: #351c26;
+    /*changes color of text*/
+    font-size: 20px;
+    /*makes text bigger*/
+}
+
+#cart {
+    width: 10%;
+    /*sets how much space it can take up inside the nav bar*/
+    display: flex;
+    /*makes element stay in same row as nav links*/
+    background-color: #b39595;
+    /*changes bg color of the container of cart*/
+}
+
+#cart:hover {
+    background-color: rgb(226, 207, 207);
+    /*changes bg color of box when hovered over*/
+    transition: 0.5s ease;
+    /*sets what and how fast the animation is for hovering*/
+}
+
+#cartimg {
+    width: 25px;
+    /*sets how big it is*/
+    margin: auto;
+    /*centers image automatically*/
+}
+
+button {
+    margin-left: 11.5%;
+    /*adds outer spacing at the left*/
+    background-color: #572d3d;
+    /*changes bg color of button*/
+    color: #ffe7f0;
+    /*changes color of text*/
+    font-weight: bold;
+    /*makes the text bold*/
+    font-size: large;
+    /*makes the text bigger*/
+    border: none;
+    /*removes the border*/
+    border-radius: 5px;
+    /*adds rounded edges*/
+}
+
+button:hover {
+    background-color: #ffe7f0;
+    /*changes bg color of button when hovered over*/
+    color: #572d3d;
+    /*changes color of text when hovered over*/
+    transition: 0.3s ease;
+    /*sets what and how fast the animation is for hovering*/
+}
+
+footer {
+    background-color: #572d3d;
+    /*changes bg color of box*/
+    text-align: center;
+    /*centers the footer*/
+    margin-top: 10%;
+    /*adds outer spacing at the top*/
+    padding: 2%;
+    /*adds inner spacing around the footer*/
+    color: rgb(239, 232, 234);
+    /*changes color of text*/
+}
