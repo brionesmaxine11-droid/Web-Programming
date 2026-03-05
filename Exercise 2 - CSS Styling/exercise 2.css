@@ -1,0 +1,118 @@
+body {
+    background-color: rgb(186, 186, 186);
+    /*adds bg color for the body*/
+    font-family: Arial, Helvetica, sans-serif;
+    /*changes font of all text into Arial inside the body*/
+    margin: 0;
+    /*removes all outer spacing around the body*/
+    padding: 40px;
+    /*adds inner spacing around the body*/
+}
+
+#mainbox {
+    margin: auto;
+    /* removes all outer spacing, centering the box automatically */
+    background-color: rgb(255, 255, 255);
+    /*changes bg color into white*/
+    width: 700px;
+    /*declares the width of the main white box behind the content*/
+    padding: 1%;
+    /*adds inner spacing around the box*/
+    border-radius: 25px;
+    /*adds rounded edges for the box*/
+}
+
+#mainheading {
+    font-family: fantasy;
+    /*changes the font into fantasy*/
+    text-align: center;
+    /*aligns the text into the center*/
+    color: #3f8c12;
+    /*changes the font color into green*/
+    font-size: 110px;
+    /*Tmakes the text bigger*/
+    margin-top: 40px;
+    /*adds inner spacing at the top*/
+    margin-bottom: 20px;
+    /*adds inner spacing at the bottom*/
+    font-weight: 75;
+    /*reduces the thickness of the text*/
+}
+
+#secondheading {
+    font-family: fantasy;
+    /*changes the font of h2 into fantasy*/
+    color: #3f8c12;
+    /*changes font color of h2 into green*/
+    font-size: 60px;
+    /*makes the text bigger*/
+    text-align: center;
+    /*aligns the h2 texts into the center*/
+    margin-bottom: 25px;
+    /*adds outer spacing at the bottom*/
+    margin: 0%;
+    /*removes the outer spacing around the texts*/
+    font-weight: 75;
+    /*reduces the thickness of the text*/
+}
+
+.otherheadings {
+    font-family: fantasy;
+    /*changes the font into fantasy*/
+    color: #3f8c12;
+    /*changes font color into green*/
+    font-size: 60px;
+    /*makes the text bigger*/
+    text-align: center;
+    /*aligns the texts into the center*/
+    font-weight: 75;
+    /*reduces the thickness of the text*/
+    margin: 30px;
+    /*adds outer spacing around the text*/
+}
+
+#greenbox {
+    background-color: #3f8c12;
+    /*changes bg color into green*/
+    color: white;
+    /*changes font color into white*/
+    padding: 1%;
+    /*adds inner spacing around the box*/
+    border-radius: 25px;
+    /*adds rounded edges for the box*/
+    margin: 0px 20px;
+    /*no outer spacing horizontally, and 20px outer spacing vertically*/
+}
+
+#greenboxtxt {
+    font-size: 18px;
+    /*changes font size inside the green box*/
+    padding-left: 20px;
+    /*adds inner spacing at the left*/
+    padding-right: 20px;
+    /*adds inner spacing at the right*/
+    line-height: 1.5;
+    /*adds space in between the lines of text*/
+}
+
+p {
+    font-size: 18px;
+    /*changes the font size of the paragraphs*/
+    padding-left: 15px;
+    /*adds inner spacing at the left*/
+    padding-right: 15px;
+    /*adds inner spacing at the right*/
+    line-height: 1.5;
+    /*adds space in between the lines of paragraphs*/
+}
+
+h3 {
+    font-family: fantasy;
+    /*changes the font of h3 into fantasy*/
+    font-size: 40px;
+    /*changes the font size of h3*/
+    font-weight: 100;
+    /*reduces the thickness of the h3*/
+    margin: 20px;
+    /*This adds spacing for the space outside the text*/
+}
