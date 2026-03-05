@@ -1,0 +1,165 @@
+body {
+    background-color: white;
+    /*changes bg color of box*/
+    width: 750px;
+    /*declares how wide the body is*/
+    margin: auto;
+    /*removes all outer spacing in the body, centers it automatically*/
+}
+
+div {
+    background-color: #dedede;
+    /*changes bg color of box*/
+}
+
+div h1 {
+    text-align: center;
+    /*moves main heading to center*/
+    font-family: 'Times New Roman', Times, serif;
+    /*changes font into Times New Roman*/
+    font-size: 75px;
+    /*makes text bigger*/
+    margin-top: 0;
+    /*removes outer spacing at the top*/
+    margin-bottom: 15px;
+    /*adds outer spacing at the bottom*/
+    padding-top: 15px;
+    /*adds inner spacing at the top*/
+}
+
+div nav {
+    text-align: center;
+    /*centers the nav bar*/
+}
+
+div nav a {
+    padding: 35px;
+    /*adds inner spacing in between the text in nav bar*/
+}
+
+p {
+    margin: 20px;
+    /*adds outer spacing in all sides*/
+}
+
+#cow {
+    float: right;
+    /*moves image to right side, allows other elements to wrap around it*/
+    margin-top: 20px;
+    /*adds outer spacing at the top*/
+    margin-right: 20px;
+    /*adds outer spacing at the right*/
+    box-shadow: 0px 0px 3px rgba(1, 1, 1, 1);
+    /*adds a shadow behind the image*/
+}
+
+#leaves {
+    width: 65%;
+    /*fits the video 65% of the div box*/
+    height: 210px;
+    /*sets fixed height*/
+    object-fit: cover;
+    /*fills the element and crops excess*/
+    display: block;
+    /*turns image into a block element, removes spaces around it*/
+    float: left;
+    /*moves image to left side, allows other elements to wrap around it*/
+    margin: 0;
+    /*removes outer spacing in all sides*/
+    padding: 0;
+    /*removes inner spacing in all sides*/
+}
+
+#road {
+    width: 35%;
+    /*fits the video 35% of the div box*/
+    height: 210px;
+    /*sets fixed height*/
+    object-fit: cover;
+    /*fills the element and crops excess*/
+    display: block;
+    /*turns image into a block element, removes spaces around it*/
+    float: left;
+    /*moves image to left side, allows other elements to wrap around it*/
+    margin: 0;
+    /*removes outer spacing in all sides*/
+    padding: 0;
+    /*removes inner spacing in all sides*/
+}
+
+#camera {
+    width: 30%;
+    /*fits the video 30% of the div box*/
+    height: 210px;
+    /*sets fixed height*/
+    object-fit: cover;
+    /*fills the element and crops excess*/
+    display: block;
+    /*turns image into a block element, removes spaces around it*/
+    float: left;
+    /*moves image to left side, allows other elements to wrap around it*/
+    margin: 0;
+    /*removes outer spacing in all sides*/
+    padding: 0;
+    /*removes inner spacing in all sides*/
+}
+
+#snow {
+    width: 70%;
+    /*fits the video 70% of the div box*/
+    height: 210px;
+    /*sets fixed height*/
+    object-fit: cover;
+    /*fills the element and crops excess*/
+    display: block;
+    /*turns image into a block element, removes spaces around it*/
+    float: left;
+    /*moves image to left side, allows other elements to wrap around it*/
+    margin: 0;
+    /*removes outer spacing in all sides*/
+    padding: 0;
+    /*removes inner spacing in all sides*/
+}
+
+#landscape {
+    width: 70%;
+    /*fits the video 70% of the div box*/
+    height: 210px;
+    /*sets fixed height*/
+    object-fit: cover;
+    /*fills the element and crops excess*/
+    display: block;
+    /*turns image into a block element, removes spaces around it*/
+    float: left;
+    /*moves image to left side, allows other elements to wrap around it*/
+    margin: 0;
+    /*removes outer spacing in all sides*/
+    padding: 0;
+    /*removes inner spacing in all sides*/
+}
+
+#car {
+    width: 30%;
+    /*fits the video 30% of the div box*/
+    height: 210px;
+    /*sets fixed height*/
+    object-fit: cover;
+    /*fills the element and crops excess*/
+    display: block;
+    /*turns image into a block element, removes spaces around it*/
+    float: left;
+    /*moves image to left side, allows other elements to wrap around it*/
+    margin: 0;
+    /*removes outer spacing in all sides*/
+    padding: 0;
+    /*removes inner spacing in all sides*/
+}
+
+div::after {
+    content: "";
+    /*makes invisible element*/
+    display: block;
+    /*turns it into a block element*/
+    clear: both;
+    /*forces below any elements set as float, so div expands to contain it*/
+}
