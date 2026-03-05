@@ -1,0 +1,37 @@
+        body {
+            font-family: 'Times New Roman', Times, serif;
+            /*changes the font of all text inside the body into Times New Roman*/
+            width: 675px;
+            /*declares the body to only be 675px wide*/
+            margin: auto;
+            /*removes outer spacing on all sides, centers automatically*/
+        }
+
+        nav {
+            background-color: gainsboro;
+            /*changes color of the nav bar into the color gainsboro*/
+            padding-left: 15px;
+            /*adds inner spacing at the left*/
+            padding-top: 2px;
+            /*adds inner spacing at the top*/
+            padding-bottom: 15px;
+            /*adds inner spacing at the bottom*/
+        }
+
+        #paragraph {
+            background-color: gainsboro;
+            /* changes the bg color of a paragraph into gainsboro*/
+            padding:40px 20px;
+            /* adds 40px inner spacing vertically, and 20px horizontally*/
+        }
+
+        footer {
+            background-color: gainsboro;
+            /*changes the bg color of the footer into gainsboro*/
+            padding-left: 20px;
+            /* adds inner spacing at the left*/
+            padding-top: 35px;
+            /* adds inner spacing at the top*/
+            padding-bottom: 35px;
+            /* adds inner spacing at the bottom*/
+        }
